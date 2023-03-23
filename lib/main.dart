@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:pet_challenge/detail_page/detail_page.dart';
+import 'package:pet_challenge/mock/pets_mock.dart';
+import 'package:pet_challenge/models/pet_model.dart';
 import 'package:pet_challenge/themes/custom_theme.dart';
 import 'home_page.dart';
 

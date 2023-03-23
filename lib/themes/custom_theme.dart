@@ -9,7 +9,6 @@ class CustomTheme {
       elevation: 0,
     ),
     scaffoldBackgroundColor: Colors.white,
-    //const Color.fromARGB(255, 242, 242, 242)
     textTheme: const TextTheme(
       headline6: TextStyle(
         color: Color.fromARGB(255,189,189,189),
@@ -19,8 +18,8 @@ class CustomTheme {
       ),
       headline2: TextStyle(
         color: Color.fromARGB(255,70,74,78),
-        fontSize: 22,
-        fontWeight: FontWeight.w800,
+        fontSize: 16,
+        fontWeight: FontWeight.w600,
         fontFamily: 'Inter',
       ),
       headline3: TextStyle(
@@ -37,7 +36,7 @@ class CustomTheme {
       ),
       bodyText2: TextStyle(
         color: Color.fromARGB(255,70,74,78),
-        fontSize: 14,
+        fontSize: 12,
         fontWeight: FontWeight.w500,
         fontFamily: 'Inter',
       ),

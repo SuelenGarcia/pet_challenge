@@ -6,7 +6,7 @@ class PetsMock {
       image: 'assets/images/home_images/golden_home.png',
       name: 'Sparky',
       breed: 'Golden Retriever',
-      gender: 'Female,',
+      gender: 'Female, ',
       age: '8 months old',
       location: '2.5 kms away',
       description:
@@ -25,7 +25,7 @@ class PetsMock {
       image: 'assets/images/home_images/pug_home.png',
       name: 'Charlie',
       breed: 'Pug',
-      gender: 'Male,',
+      gender: 'Male, ',
       age: '1.5 years old',
       location: '2.6 kms away',
       description:
@@ -37,14 +37,14 @@ class PetsMock {
         'assets/images/dogs_images/pug/pug_2.png',
         'assets/images/dogs_images/pug/pug_3.png',
         'assets/images/dogs_images/pug/pug_4.png'
-            'assets/images/dogs_images/pug/pug_5.png',
+        'assets/images/dogs_images/pug/pug_5.png',
       ],
     ),
     PetModel(
       image: 'assets/images/home_images/chihuahua_home.png',
       name: 'Max',
       breed: 'Chihuahua',
-      gender: 'Male,',
+      gender: 'Male, ',
       age: '1 year old',
       location: '2.9 kms away',
       description:
@@ -56,7 +56,7 @@ class PetsMock {
       image: 'assets/images/home_images/spitz_home.png',
       name: 'Daisy',
       breed: 'Spitz',
-      gender: 'Female,',
+      gender: 'Female, ',
       age: '7 months old',
       location: '3.1 kms away',
       description:
@@ -74,7 +74,7 @@ class PetsMock {
       image: 'assets/images/home_images/beagle_home.png',
       name: 'Zoe',
       breed: 'Beagle',
-      gender: 'Female,',
+      gender: 'Female, ',
       age: '6 months old',
       location: '3.4 kms away',
       description:
