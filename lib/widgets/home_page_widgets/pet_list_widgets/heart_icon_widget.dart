@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:pet_challenge/mock/pets_mock.dart';
-import 'package:pet_challenge/models/pet_model.dart';
 
 class HeartIconWidget extends StatelessWidget {
   final bool isLiked;

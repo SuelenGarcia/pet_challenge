@@ -13,7 +13,7 @@ class TabBarButtonsWidget extends StatelessWidget {
   Widget build(BuildContext context) {
 
     String? text = tabBarButtons.text;
-    final theme = Theme.of(context).textTheme;
+    
     return Container(
       height: 50,
       padding: const EdgeInsets.only(left: 10, right: 10),

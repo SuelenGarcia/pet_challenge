@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:pet_challenge/models/tab_bar_buttons_model.dart';
 
 class TabBarButtonsMock {
