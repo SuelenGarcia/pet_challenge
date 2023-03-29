@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:pet_challenge/widgets/home_page_widgets/pet_list_widgets/pet_card_widget.dart';
-
 import '../../../models/pet_model.dart';
 
 class PetListWidget extends StatelessWidget {

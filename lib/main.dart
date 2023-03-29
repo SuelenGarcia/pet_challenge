@@ -15,7 +15,6 @@ class MyApp extends StatelessWidget {
       title: 'Pet App',
       theme: CustomTheme.theme,
       home: const HomePage(),
-      
       debugShowCheckedModeBanner: false,
     );
   }

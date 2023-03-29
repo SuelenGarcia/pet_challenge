@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pet_challenge/detail_page/detail_page_widget.dart';
+import 'package:pet_challenge/detail_page/detail_page.dart';
+import 'package:pet_challenge/widgets/detail_page_widgets/gallery_list_widget.dart';
 import 'package:pet_challenge/mock/pets_mock.dart';
 import 'package:pet_challenge/models/pet_model.dart';
 import 'package:pet_challenge/widgets/home_page_widgets/pet_list_widgets/heart_icon_widget.dart';
@@ -109,9 +110,8 @@ class PetCardWidget extends StatelessWidget {
       onTap: () {
         Navigator.of(context).push(MaterialPageRoute(
           builder: (context) {
-            return DetailPageWidget(
+            return DetailPage(
               pet: pet,
-              petList: pet.imagesList,
             );
           },
         ));
