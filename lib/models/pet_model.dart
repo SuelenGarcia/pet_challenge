@@ -10,6 +10,7 @@ class PetModel {
   final String location;
   final String description;
   final bool isLiked;
+  final String imageNoBg;
   final List<String> imagesList;
 
   PetModel({
@@ -21,6 +22,7 @@ class PetModel {
     required this.location,
     required this.description,
     required this.isLiked,
+    required this.imageNoBg, 
     required this.imagesList,
   });
 }

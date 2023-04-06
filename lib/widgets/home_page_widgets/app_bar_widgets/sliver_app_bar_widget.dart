@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'menu_icon_app_bar.dart';
 
 class SliverAppBarWidget extends StatelessWidget {
@@ -7,9 +6,15 @@ class SliverAppBarWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    
     final theme = Theme.of(context).textTheme;
+    final mediaQuery = MediaQuery.of(context).size;
+    final heightAppBar = mediaQuery.width * 0.272;
+    final heightAvatar = mediaQuery.height * 0.133;
+    final widthAvatar = mediaQuery.width * 0.133;
+
     return SliverAppBar(
-      toolbarHeight: 100,
+      toolbarHeight: heightAppBar,
       leading: const Padding(
         padding: EdgeInsets.all(10),
         child: MenuIconAppBar(),
@@ -29,8 +34,8 @@ class SliverAppBarWidget extends StatelessWidget {
       centerTitle: true,
       actions: [
         Container(
-          height: 50,
-          width: 50,
+          height: heightAvatar,
+          width: widthAvatar,
           padding: const EdgeInsets.all(10),
           child: const CircleAvatar(
             backgroundImage: AssetImage('assets/images/home_images/person.jpg'),

@@ -11,14 +11,16 @@ class GalleryWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    
     return Container(
       height: 70,
-      width: 70,
       decoration: BoxDecoration(
         borderRadius: const BorderRadius.all(Radius.circular(10),),
-        border: Border.all(color: Colors.black),
-        image: DecorationImage(image: AssetImage(image),),
+        border: Border.all(
+          color: const Color.fromARGB(255,238,238,238),
+          width: 2,
+          ),
+        image: DecorationImage(image: AssetImage(image),
+        ),
       ),
     );
   }

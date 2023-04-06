@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pet_challenge/detail_page/detail_page.dart';
-import 'package:pet_challenge/widgets/detail_page_widgets/gallery_list_widget.dart';
-import 'package:pet_challenge/mock/pets_mock.dart';
+import 'package:pet_challenge/pages/detail_page.dart';
 import 'package:pet_challenge/models/pet_model.dart';
 import 'package:pet_challenge/widgets/home_page_widgets/pet_list_widgets/heart_icon_widget.dart';
 
@@ -15,12 +13,13 @@ class PetCardWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context).textTheme;
-
+    final heightCard = MediaQuery.of(context).size.height * 0.20;
+    final imageSize = MediaQuery.of(context).size.width * 0.304;
     return InkWell(
       child: Container(
         margin: const EdgeInsets.only(bottom: 20, left: 20, right: 20),
         width: double.infinity,
-        height: 140,
+        height: heightCard,
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(20),
@@ -44,8 +43,8 @@ class PetCardWidget extends StatelessWidget {
                     child: SizedBox(
                       child: Image.asset(
                         pet.image,
-                        height: 110,
-                        width: 110,
+                        height: imageSize,
+                        width: imageSize,
                         fit: BoxFit.cover,
                       ),
                     ),

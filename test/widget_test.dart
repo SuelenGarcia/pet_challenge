@@ -7,7 +7,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:pet_challenge/widgets/home_page_widget.dart';
+import 'package:pet_challenge/pages/home_page.dart';
 
 
 void main() {

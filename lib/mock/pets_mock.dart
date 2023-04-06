@@ -3,6 +3,7 @@ import 'package:pet_challenge/models/pet_model.dart';
 class PetsMock {
   static List<PetModel> pets = [
     PetModel(
+      imageNoBg: 'assets/images/dogs_images/golden/golden_bg.png',
       image: 'assets/images/home_images/golden_home.png',
       name: 'Sparky',
       breed: 'Golden Retriever',
@@ -13,7 +14,6 @@ class PetsMock {
           'She is shy at first, but will warm up when she\'s comfortable. She is not a ranch dog that guards animals and property as she whould rather be with her people; but she is comfortable around animals. She plays well with other dogs.',
       isLiked: true,
       imagesList: [
-        'assets/images/dogs_images/golden/golden.png',
         'assets/images/dogs_images/golden/golden_1.png',
         'assets/images/dogs_images/golden/golden_2.png',
         'assets/images/dogs_images/golden/golden_3.png',
@@ -22,6 +22,7 @@ class PetsMock {
       ],
     ),
     PetModel(
+      imageNoBg: 'assets/images/dogs_images/golden/golden_bg.png',
       image: 'assets/images/home_images/pug_home.png',
       name: 'Charlie',
       breed: 'Pug',
@@ -41,6 +42,7 @@ class PetsMock {
       ],
     ),
     PetModel(
+      imageNoBg: 'assets/images/dogs_images/golden/golden_bg.png',
       image: 'assets/images/home_images/chihuahua_home.png',
       name: 'Max',
       breed: 'Chihuahua',
@@ -53,6 +55,7 @@ class PetsMock {
       imagesList: [],
     ),
     PetModel(
+      imageNoBg: 'assets/images/dogs_images/golden/golden_bg.png',
       image: 'assets/images/home_images/spitz_home.png',
       name: 'Daisy',
       breed: 'Spitz',
@@ -71,6 +74,7 @@ class PetsMock {
       ],
     ),
     PetModel(
+      imageNoBg: 'assets/images/dogs_images/golden/golden_bg.png',
       image: 'assets/images/home_images/beagle_home.png',
       name: 'Zoe',
       breed: 'Beagle',

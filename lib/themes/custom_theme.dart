@@ -24,8 +24,27 @@ class CustomTheme {
       ),
       headline3: TextStyle(
         color: Color.fromARGB(255,70,74,78),
-        fontSize: 16,
-        fontWeight: FontWeight.bold,
+        fontSize: 18,
+        fontWeight: FontWeight.w600,
+        fontFamily: 'Inter',
+      ),
+      headline4: TextStyle(
+        color: Color.fromARGB(255,70,74,78),
+        fontSize: 14,
+        fontWeight: FontWeight.w500,
+        fontFamily: 'Inter',
+      ),
+      headline5: TextStyle(
+        color: Color.fromARGB(255,179,179,179),
+        fontSize: 12,
+        fontFamily: 'Inter',
+        fontWeight: FontWeight.w300,
+        height: 1.5,
+      ),
+      headline1: TextStyle(
+        color: Color.fromARGB(255,70,74,78),
+        fontSize: 24,
+        fontWeight: FontWeight.w600,
         fontFamily: 'Inter',
       ),
       bodyText1: TextStyle(
@@ -43,6 +62,12 @@ class CustomTheme {
       caption: TextStyle(
         color: Color.fromARGB(255,179,179,179),
         fontSize: 12,
+        fontFamily: 'Inter',
+        fontWeight: FontWeight.w300,
+      ),
+      button: TextStyle(
+        color: Colors.white,
+        fontSize: 16,
         fontFamily: 'Inter',
         fontWeight: FontWeight.w300,
       ),

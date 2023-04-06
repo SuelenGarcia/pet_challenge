@@ -9,7 +9,7 @@ class InfoPetsWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context).textTheme;
     return Padding(
-        padding: const EdgeInsets.only(right: 20, left: 20),
+        padding: const EdgeInsets.only(right: 20, left: 20, bottom: 10),
         child: Column(
           children: [
             Row(
@@ -18,7 +18,7 @@ class InfoPetsWidget extends StatelessWidget {
                 Expanded(
                   child: Text(
                     pet.name,
-                    style: theme.bodyText1,
+                    style: theme.headline1,
                   ),
                 ),
                 Image.asset(
@@ -28,26 +28,35 @@ class InfoPetsWidget extends StatelessWidget {
                 ),
               ],
             ),
+            const SizedBox(
+              height: 5,
+            ),
             Row(
               children: [
                 Expanded(
                   child: Text(
                     pet.breed,
-                    style: theme.bodyText2,
+                    style: theme.headline4,
                   ),
                 ),
                 Text(
                   pet.age,
-                  style: theme.headline6,
+                  style: theme.headline4,
                 ),
               ],
+            ),
+            const SizedBox(
+              height: 5,
             ),
             Row(
               children: [
                 Image.asset('assets/images/icons_images/gps_icon.png'),
+                const SizedBox(
+                  width: 5,
+                ),
                 Text(
                   pet.location,
-                  style: theme.bodyText2,
+                  style: theme.caption,
                 ),
               ],
             ),

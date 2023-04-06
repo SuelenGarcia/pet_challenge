@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pet_challenge/models/pet_model.dart';
 import 'package:pet_challenge/themes/custom_theme.dart';
-import 'package:pet_challenge/widgets/home_page_widget.dart';
+import 'package:pet_challenge/pages/home_page.dart';
 
 void main() {
   runApp(const MyApp());
